@@ -1,4 +1,4 @@
-![status](https://img.shields.io/badge/expression_of_interest-green)
+![status](https://img.shields.io/badge/expression_of_interest-grey)
 
 # The MBO WP2/5 Data Analysis Challenge
 
