@@ -18,7 +18,7 @@ In doing so, you will help improve recommendations for eDNA metabarcoding pipeli
 *What we do*
 
 - :floppy_disk:  Provide the eDNA datasets (18S plankton time series and 12S/16S/COI aquarium samples) along with standardised reference libraries
-- :bar_chart:  Compile and compare the resulting tables across participan's pipelines
+- :bar_chart:  Compile and compare the resulting tables across participants' pipelines
 - :memo:  Report and share these results back with the participants and on the Marco-Bolo website
 
 
