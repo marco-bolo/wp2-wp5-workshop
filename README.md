@@ -2,7 +2,7 @@
 
 # The MBO WP2/5 Data Analysis Challenge
 
-Join [Marco-Bolo](https://marcobolo-project.eu/) in comparing bioinformatics pipelines for analysing eDNA data by participating in the **Bioinformatics Pipeline Challenge / DATA ANALYSIS CHALLENGE**.
+Join the [EU Horizon MARCO-BOLO project](https://marcobolo-project.eu/) in comparing bioinformatics pipelines for analysing eDNA data by participating in the **DATA ANALYSIS CHALLENGE**.
 
 In doing so, you will help improve recommendations for eDNA metabarcoding pipeline choice amongst the myriad of options out there and contribute towards the development of indicator workflows to report on biodiversity monitoring.
 
@@ -19,8 +19,7 @@ In doing so, you will help improve recommendations for eDNA metabarcoding pipeli
 
 - :floppy_disk:  Provide the eDNA datasets (18S plankton time series and 12S/16S/COI aquarium samples) along with standardised reference libraries
 - :bar_chart:  Compile and compare the resulting tables across participants' pipelines
-- :memo:  Report and share these results back with the participants and on the Marco-Bolo website
-
+- :memo:  Report and share these results back with the participants and on the MARCO-BOLO website
 
 
 ## Timeline of challenge
@@ -32,7 +31,14 @@ In doing so, you will help improve recommendations for eDNA metabarcoding pipeli
 
 ## Registration form
 
-Register your interest for the challenge using the [Registration form](https://docs.google.com/forms/d/e/1FAIpQLSfrSrlqA2TQKWda8ZRReNQ-AtB90eMF29MDgd8ZHk4ALKbA4w/viewform?usp=sf_link) before the 30th of August 2024.
+Register your interest for the challenge using the [Registration form](https://docs.google.com/forms/d/e/1FAIpQLSfrSrlqA2TQKWda8ZRReNQ-AtB90eMF29MDgd8ZHk4ALKbA4w/viewform?usp=sf_link) before August 30th 2024.
+
+*Why register to participate*
+
+- You want your pipeline to be included in the comparison
+- You like a challenge and want to see how your pipeline performs on new data
+- You want to contribute towards better guidelines on pipeline choice and improved workflows for biodiversity monitoring
+- You will receive credit for your contribution in the MBO reports
 
 ## The Challenge
 
