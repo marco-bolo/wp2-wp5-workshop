@@ -1,0 +1,6 @@
+Forward primer>mTAReuk454FWD1
+CCAGCASCYGCGGTAATTCC
+
+Reverse primer
+>TAReukREV3
+ACTTTCGTTCTTGATYRA

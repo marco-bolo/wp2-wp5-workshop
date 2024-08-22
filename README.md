@@ -31,7 +31,7 @@ In doing so, you will help improve recommendations for eDNA metabarcoding pipeli
 
 ## Registration form
 
-Register your interest for the challenge using the [Registration form](https://docs.google.com/forms/d/e/1FAIpQLSfrSrlqA2TQKWda8ZRReNQ-AtB90eMF29MDgd8ZHk4ALKbA4w/viewform?usp=sf_link) before August 30th 2024.
+Register your interest for the challenge using the [Registration form](https://docs.google.com/forms/d/e/1FAIpQLSfrSrlqA2TQKWda8ZRReNQ-AtB90eMF29MDgd8ZHk4ALKbA4w/viewform?usp=sf_link) before September 6th 2024.
 
 *Why register to participate*
 
@@ -55,9 +55,6 @@ The goal of this challenge is to analyse the same datasets with different pipeli
 
 Your participation will be acknowledged in the Marco-Bolo project reports and on the Marco-Bolo website. The final comparison will provide clear evidence on how robust and comparable current eDNA practices are, with the aim to increase our understanding of the method and the trust in the results. The datasets will also remain available for further comparisons, whenever new workflows are being developed.
 
-*Funded by the European Union under the Horizon Europe Programme, Grant Agreement No. 101082021 (MARCO-BOLO).*
-
-
 
 ## The Datasets
 
@@ -67,8 +64,10 @@ Based on your preference, you may choose to analyse one or more of the following
 
 This time series was collected to analyse patterns of plankton protist community succession off the French coast in the Western English Channel. Over the course of 8 years (2009-2016), bimonthly samples of 5 L of seawater were collected at 60m depth at the SOMLIT-Astan station (Roscoff, Western English Channel). The primers TAReuk454FWD1 and TAReukREV3 were used to amplify the V4 region of the 18S rRNa gene and to target most eukaryotic groups. This long-term, comprehensive dataset will allow us to explore how biodiversity indicators inform on the temporal structure of community changes.
 
-- Dataset size (# samples)
-- Primers and primer sequences
+- 185 samples collected over 8 years
+- One primer pair: 
+
+    V4 18S rRNA: TAReuk454FWD1 & TAReukREV3 ~380 bp (Stoeck et al., 2010)
 - Reference library: please use the [PR2 reference sequence database](https://pr2-database.org) above version 5.0.0 
 
 *[Data ownership: This dataset was published and made publicly available by [Caracciolo et al. 2022](https://doi.org/10.1111/mec.16539)]*
@@ -77,14 +76,18 @@ This time series was collected to analyse patterns of plankton protist community
 
 This dataset consists of triplicate 5L water volumes collected from the Lisbon Aquarium (Oceanário de Lisboa). Extracted DNA was amplified with multiple primer pairs to target fish species using the 12S, 16S and COI genes. The existence of a reference list of species inhabiting the aquarium at the time of sampling allows to compare primer- and pipeline efficiency and accuracy not only across marker genes but also against the target list of species actually present.
 
-- Dataset size (# samples)
-- Primers and primer sequences (submit document)
-- Reference libraries: will be provided in fasta format
+- 9 samples (triplicate samples for each primer pair)
+- 3 primer pairs:
+  -  COl: Leray-Lobo ~ 313bp (Leray et al. 2013; Lobo et al. 2013)
+  -  12S rRNA: MIFISHU-E ~170bp (Miya et al. 2015)
+  -  16S rRNA: Fish16sF/D/ & 16s2R ~ 200bp (Berry et al. 2015)
+-  Reference libraries: will be provided in fasta format
 
 *[Data ownership: [A-Fish-DNA-Scan](https://sites.google.com/view/a-fish-dna-scan/project-outputs) and [ME-BARCODE](https://me-barcode.weebly.com) group at the University of Minho. By participating in this challenge, you agree to not use the dataset beyond this exercise. Contact: [Filipe Costa](fcosta@bio.uminho.pt)*
 
 ## Acknowledgements
 
+The MARCO-BOLO project is funded by the European Union under the Horizon Europe Programme, Grant Agreement No. 101082021.
 
 ## Contact and help
 
