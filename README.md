@@ -38,7 +38,7 @@ Register your interest for the challenge using the [Registration form](https://d
 - You want your pipeline to be included in the comparison
 - You like a challenge and want to see how your pipeline performs on new data
 - You want to contribute towards better guidelines on pipeline choice and improved workflows for biodiversity monitoring
-- You will be acknowledged for your contribution in potential outputs
+- You will be acknowledged for your contribution in eventual outputs
 
 ## The Challenge
 
@@ -87,7 +87,8 @@ This dataset consists of triplicate 5L water volumes collected from the Lisbon A
 
 ## Acknowledgements
 
-The MARCO-BOLO project is funded by the European Union under the Horizon Europe Programme, Grant Agreement No. 101082021.
+The MARCO-BOLO project is funded by the European Union under the Horizon Europe Programme, Grant Agreement No. 101082021 (MARCO-BOLO). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Executive Agency (REA). Neither the European Union nor the granting authority can be held responsible for them.
+UK participants in MARCO-BOLO are supported by the UKRI’s Horizon Europe Guarantee under the Grant No. 10068180 (MS); No. 10063994 (MBA); No. 10048178 (NOC).
 
 ## Contact and help
 
