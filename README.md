@@ -1,4 +1,8 @@
-![status](https://img.shields.io/badge/expression_of_interest-grey)
+![status](https://img.shields.io/badge/expression_of_interest-6_September-green)
+<p align="center">
+<img src="misc_untracked/MARCO-BOLO_logo_col_isolatedicon-01.png" alt="drawing" width="190" align="left"/>
+</p>
+
 
 # The MBO WP2/5 Data Analysis Challenge
 
@@ -85,6 +89,14 @@ This dataset consists of triplicate 5L water volumes collected from the Lisbon A
 
 *[Data ownership: [A-Fish-DNA-Scan](https://sites.google.com/view/a-fish-dna-scan/project-outputs) and [ME-BARCODE](https://me-barcode.weebly.com) group at the University of Minho. By participating in this challenge, you agree to not use the dataset beyond this exercise. Contact: [Filipe Costa](fcosta@bio.uminho.pt)*
 
+## Associated files and pipeline details
+
+The datasets will be shared with registered participants directly. The data shared contains the demultiplexed files in fastq format. We will also share the necessary metadata files and primer sequences, as well as the reference libraries for each primer pair of the fish aquarium dataset in fasta format. 
+
+In the meantime, the metadata and primer files can also be found under :file_folder: &nbsp;[**associated_files/**](https://github.com/marco-bolo/wp2-wp5-workshop/tree/master/associated_files)
+
+When completing the analyses, we request that you share the necessary pipeline information by filling out the [Pipeline_metadata_eDNA_data_analysis_challenge.xlsx](https://github.com/marco-bolo/wp2-wp5-workshop/blob/main/Pipeline_metadata_eDNA_data_analysis_challenge.xlsx) file. Alternatively, you can also send us your script and associated parameter files directly.
+
 ## Acknowledgements
 
 The MARCO-BOLO project is funded by the European Union under the Horizon Europe Programme, Grant Agreement No. 101082021 (MARCO-BOLO). Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Research Executive Agency (REA). Neither the European Union nor the granting authority can be held responsible for them.
@@ -92,9 +104,9 @@ UK participants in MARCO-BOLO are supported by the UKRI’s Horizon Europe Guara
 
 ## Contact and help
 
-This challenge is jointly organised by WP2 and WP5 of MARCO-BOLO, with efforts lead by Hanneloor Heynderickx (WP5, VLIZ), Saara Suominen (WP2, UNESCO), Daniel Morais (WP2, UIT) and Emilie Boulanger (WP2, UNESCO).
+This challenge is jointly organised by WP2 and WP5 of MARCO-BOLO, with efforts lead by Hanneloor Heynderickx (WP5, VLIZ), Saara Suominen (WP2, UNESCO), Daniel Morais (WP2, UiT) and Emilie Boulanger (WP2, UNESCO).
 
-You can direct your questions regarding the challenge to Saara Suominen at s.suominen@unesco.org.
+You can direct your questions regarding the challenge to Emilie Boulanger at e.boulanger@unesco.org.
 
 Please reach out if you get stuck at any stage of the challenge and we will help you as best we can.
 
