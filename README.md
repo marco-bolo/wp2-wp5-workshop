@@ -1,6 +1,6 @@
 ![status](https://img.shields.io/badge/expression_of_interest-6_September-green)
 <p align="center">
-<img src="misc_untracked/MARCO-BOLO_logo_col_isolatedicon-01.png" alt="drawing" width="190" align="left"/>
+<img src="MARCO-BOLO_logo_col_isolatedicon-01.png" alt="drawing" width="190" align="left"/>
 </p>
 
 
