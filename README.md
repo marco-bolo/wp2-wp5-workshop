@@ -95,7 +95,7 @@ The datasets will be shared with registered participants directly. The data shar
 
 In the meantime, the metadata and primer files can also be found under :file_folder: &nbsp;[**associated_files/**](https://github.com/marco-bolo/wp2-wp5-workshop/tree/master/associated_files)
 
-When completing the analyses, we request that you share the necessary pipeline information by filling out the [Pipeline_metadata_eDNA_data_analysis_challenge.xlsx](https://github.com/marco-bolo/wp2-wp5-workshop/blob/main/Pipeline_metadata_eDNA_data_analysis_challenge.xlsx) file. Alternatively, you can also send us your script and associated parameter files directly.
+When completing the analyses, we request that you share the necessary pipeline information by filling out the [Pipeline_metadata_eDNA_data_analysis_challenge.xlsx](https://github.com/marco-bolo/wp2-wp5-workshop/blob/main/Pipeline_metadata_eDNA_data_analysis_challenge.xlsx) template. Alternatively, you can also send us your script and associated parameter files directly.
 
 ## Acknowledgements
 
@@ -104,7 +104,7 @@ UK participants in MARCO-BOLO are supported by the UKRI’s Horizon Europe Guara
 
 ## Contact and help
 
-This challenge is jointly organised by WP2 and WP5 of MARCO-BOLO, with efforts lead by Hanneloor Heynderickx (WP5, VLIZ), Saara Suominen (WP2, UNESCO), Daniel Morais (WP2, UiT) and Emilie Boulanger (WP2, UNESCO).
+This challenge is jointly organised by WP2 and WP5 of MARCO-BOLO, with efforts lead by Hanneloor Heynderickx (WP5, VLIZ), Saara Suominen (WP2, OBIS/UNESCO), Daniel Morais (WP2, UiT) and Emilie Boulanger (WP2, OBIS/UNESCO).
 
 You can direct your questions regarding the challenge to Emilie Boulanger at e.boulanger@unesco.org.
 
