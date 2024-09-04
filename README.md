@@ -1,4 +1,5 @@
 ![status](https://img.shields.io/badge/expression_of_interest-6_September-green)
+![registrations](https://img.shields.io/badge/registrations-36-purple)
 <p align="center">
 <img src="https://avatars.githubusercontent.com/u/128803255?s=280&v=4" alt="drawing" width="190" align="left"/>
 </p>
