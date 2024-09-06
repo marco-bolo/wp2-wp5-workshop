@@ -1,5 +1,5 @@
 ![status](https://img.shields.io/badge/expression_of_interest-6_September-green)
-![registrations](https://img.shields.io/badge/registrations-36-purple)
+![registrations](https://img.shields.io/badge/registrations-43-purple)
 <p align="center">
 <img src="https://avatars.githubusercontent.com/u/128803255?s=280&v=4" alt="drawing" width="190" align="left"/>
 </p>
@@ -29,7 +29,7 @@ In doing so, you will help improve recommendations for eDNA metabarcoding pipeli
 
 ## Timeline of challenge
 
-- 6th of September 2024: Registration deadline. Datasets are shared with participants who expressed their interest to join.
+- **Extended until the 13th of September 2024**: Registration deadline. Datasets are shared with participants who expressed their interest to join.
 - 30th of September 2024: Deadline for the submission of analysis results.
 - 7th and 8th of October: Data comparison and indicator workflow development by MARCO-BOLO internally.
 - Early November: MARCO-BOLO initial report.
