@@ -36,7 +36,7 @@ In doing so, you will help improve recommendations for eDNA metabarcoding pipeli
 
 ## Registration form
 
-Register your interest for the challenge using the [Registration form](https://docs.google.com/forms/d/e/1FAIpQLSfrSrlqA2TQKWda8ZRReNQ-AtB90eMF29MDgd8ZHk4ALKbA4w/viewform?usp=sf_link) before September 6th 2024.
+Register your interest for the challenge using the [Registration form](https://docs.google.com/forms/d/e/1FAIpQLSfrSrlqA2TQKWda8ZRReNQ-AtB90eMF29MDgd8ZHk4ALKbA4w/viewform?usp=sf_link) before September 13th 2024.
 
 *Why register to participate*
 
