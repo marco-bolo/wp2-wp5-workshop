@@ -1,5 +1,10 @@
-![status](https://img.shields.io/badge/expression_of_interest-13_September-green)
-![registrations](https://img.shields.io/badge/registrations-50-purple)
+![status](https://img.shields.io/badge/expression_of_interest_(extended)-13_September-green)
+![registrations](https://img.shields.io/badge/registrations-57-purple)
+
+![status2](https://img.shields.io/badge/challenge_run-30_September-green)
+![submissions](https://img.shields.io/badge/submissions-2-blue)
+<br/>
+<br/>
 <p align="center">
 <img src="https://avatars.githubusercontent.com/u/128803255?s=280&v=4" alt="drawing" width="190" align="left"/>
 </p>
