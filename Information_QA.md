@@ -45,6 +45,10 @@ It is a mix of the Mifush-U primers and Mifish-E primers. The Mifish-U primers w
 
 More information on the primers can be found in [Miya et al. 2015](http://rsos.royalsocietypublishing.org/lookup/doi/10.1098/rsos.150088).
 
+> The first universal primers for eDNA were designed on the 12S rRNA gene (for details, see
+Results and Discussion) and were named MiFish-U-F/R (with overhang adapter sequences for library preparation; U, F and R represent universal, forward and reverse, respectively). In addition, we had to design MiFish-E-F/R to accommodate sequence variations in the priming sites of elasmobranchs (E), with the primer designs based on newly assembled partial mitogenome sequences from 160 species (electronic supplementary material, table S2).
+
+
 ## Do the reference database [for the aquarium datasets] contain only the target species, only fish species, or also outgroups (e.g. crustaceans)?
 Yes they only contain fish species. 
 
