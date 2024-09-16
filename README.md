@@ -1,8 +1,8 @@
-![status](https://img.shields.io/badge/expression_of_interest_(extended)-13_September-green)
-![registrations](https://img.shields.io/badge/registrations-57-purple)
+![status](https://img.shields.io/badge/Expression_of_Interest-13_September-green)
+![registrations](https://img.shields.io/badge/Registrations-60-purple)
 
-![status2](https://img.shields.io/badge/challenge_run-30_September-green)
-![submissions](https://img.shields.io/badge/submissions-2-blue)
+![status2](https://img.shields.io/badge/Challenge_Run-30_September-green)
+![submissions](https://img.shields.io/badge/Submissions-2-blue)
 <br/>
 <br/>
 <p align="center">
@@ -79,6 +79,8 @@ This time series was collected to analyse patterns of plankton protist community
 
     V4 18S rRNA: TAReuk454FWD1 & TAReukREV3 ~380 bp (Stoeck et al., 2010)
 - Reference library: please use the [PR2 reference sequence database](https://pr2-database.org) above version 5.0.0 
+
+**Importantly** the runs of the 18S dataset are mixed-orientated. This means that the R1 file will have a mix of forward and reverse reads. This is due to the way the library was prepared. The Illumina tag was attached to the forward primer. Half of the reads are thus in reverse orientation and do not have a tag.
 
 *[Data ownership: This dataset was published and made publicly available by [Caracciolo et al. 2022](https://doi.org/10.1111/mec.16539)]*
 
