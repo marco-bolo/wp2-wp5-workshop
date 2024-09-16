@@ -4,7 +4,7 @@
 
 The recording of the information session on 09/09/2024 can be found [here](https://drive.google.com/file/d/1uNhEQHV1QBlr67V7EtPGTL2ppzsYjXbw/view?usp=sharing).
 
-The slides presented during the information session on 09/09/09 can be found [here](https://drive.google.com/file/d/1yKpLjbyMEVaCwLxfboPzVGOOsC3gmmh_/view?usp=sharing).
+The slides presented during the information session on 09/09/2024 can be found [here](https://drive.google.com/file/d/1yKpLjbyMEVaCwLxfboPzVGOOsC3gmmh_/view?usp=sharing).
 
 ## Answers to questions raised at the information session
 
