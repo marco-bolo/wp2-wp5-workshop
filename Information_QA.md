@@ -21,28 +21,38 @@ The slides presented during the information session on 09/09/2024 can be found [
 ### What preprocessing has been done to the data?
 #### For the plankton 18S time-series
 
-Sequenced 2x250 bp. Demultiplexing has been done and the illumina barcodes have been removed [+/- 12 bp].
-Primers are still attached, no trimming or other processing has been done. The amplicon reads should all have the same length, around 250bp. Maybe a few base pairs variation because of the illumina tag removal.
+Sequenced 2x250 bp. Demultiplexing has been done and the primer tags (+/- 12 bp) were removed during demultiplexing.
+Primers are still attached, no trimming or other processing has been done. The amplicon reads should all have the same length, around 250bp. Maybe a few base pairs variation because of the primer tag removal.
 
 
 Details about the demultiplexing of the 18S plankton data can be found at [https://gitlab.sb-roscoff.fr/somlit-astan-metab/demultiplexing/18s-v4-ena-submission](https://gitlab.sb-roscoff.fr/somlit-astan-metab/demultiplexing/18s-v4-ena-submission) 
 
-`Importantly` the runs of the 18S dataset are mixed-orientated. This means that the R1 file will have a mix of forward and reverse reads, and the R2 file will also have a mix of forward and reverse reads. This is due to the way the library was prepared. 
+`Importantly` the runs of the 18S dataset are mixed-orientated. This means that the R1 file will have a mix of forward and reverse reads (~50% each), and the R2 file will also have a mix of forward and reverse reads (~50% each). This is due to the way the library was prepared. 
 
-The [pipeline used in the original study](https://doi.org/10.5281/zenodo.5791089) details the demultiplexing and trimming steps: 
+The [pipeline used in the original study](https://doi.org/10.5281/zenodo.5791089) details the demultiplexing steps: 
 
 > Demultiplexing has been done using Cutadapt. For most of the fastq files processed here, the reads are in mixed orientation. So Cutadapt is used twice, first looking for tags and forward primers in R1 and then looking for tags and forward primers in R2.
 > 
 > The results of demultiplexing alone are saved into \${SAMPLE}_\${RUNID}_R1.fastq.gz and \${SAMPLE}\_${RUNID}_R2.fastq.gz. The reads are not reorientated. These files are deposited in public repositories.
 
+The safest way to deal with mixed orientated reads is to split them at the beginning of the workflow into separate files and consider the two pools as two different runs.
 This means it's up to you to separate the forward and reverse reads before you proceed with your analyses. You can do this by placing the forward reads from R1 and R2 into a  separate FWD folder, and the reverse reads from R1 and R2 into a separate REV folders. You can find the details on how this was done in the original [Caracciolo et al. 2022](https://doi.org/10.1111/mec.16539) paper in the [index.html](https://doi.org/10.5281/zenodo.5791089) file of their pipeline. 
 
 
 
-#### For the Aquarium COI/12S/16S datasets
+#### **For the Aquarium COI/12S/16S datasets**
 The datasets provided contain the raw, demultiplexed sequences but no filtering was applied. 
 
 ### Some variation in sequence length was noticed, especially for the aquarium datasets (12S/COI/16S). 
+ **For the Plankton 18S data**
+
+The primer tags were removed during demultiplexing. These tags were located just before the forward primer, so, after demultiplexing, all the forward reads are shorter than the reverse. But, because each file contains 50% forward and 50% reverse reads, we end up with reads of different sizes in each file. Each tag was 8 bp long plus 4 random nucleotides before (some of those are sometimes missing). So forward reads should be between 238bp and 242bp long and reverse are 250bp long.
+
+Below, the size distribution of the 18SV4 reads, one line per file:
+
+![18S distribution](associated_files/timeseries_18S_size_distribution.png)
+
+ **For the Aquarium COI/12S/16S data**
 
 This could be due to non-target amplification by the chosen primers and thus represent biological variation in the amplicons.
 Bacterial co-amplification occurs with the 12S primer set and is documented for the [COI primers](https://www.biorxiv.org/content/10.1101/2021.07.10.451903v1.full.pdf)
@@ -66,7 +76,7 @@ The list can be found under :file_folder: &nbsp;[**associated_files/aquarium_COI
 ### Aquarium COI/12S/16S datasets - Why were two primers used for 12S
 It is a mix of the Mifush-U primers and Mifish-E primers. The Mifish-U primers were first designed but noted that they didn’t target elasmobranch taxa very well. Therefore a second primer pair was developed that targeted the elasmobranchs specifically. Both primers are used in multiplex to cover all fish groups.
 
-More information on the primers can be found in [Miya et al. 2015](http://rsos.royalsocietypublishing.org/lookup/doi/10.1098/rsos.150088).
+More information on the primers can be found in [Miya et al. 2015](http://rsos.royalsocietypublishing.org/lookup/doi/10.1098/rsos.150088):
 
 > The first universal primers for eDNA were designed on the 12S rRNA gene (for details, see
 Results and Discussion) and were named MiFish-U-F/R (with overhang adapter sequences for library preparation; U, F and R represent universal, forward and reverse, respectively). In addition, we had to design MiFish-E-F/R to accommodate sequence variations in the priming sites of elasmobranchs (E), with the primer designs based on newly assembled partial mitogenome sequences from 160 species (electronic supplementary material, table S2).
