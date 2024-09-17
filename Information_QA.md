@@ -8,6 +8,8 @@ The slides presented during the information session on 09/09/2024 can be found [
 
 ## Answers to questions raised at the information session
  - [What preprocessing has been done to the data?](#what-preprocessing-has-been-done-to-the-data)
+   - [Plankton 18S dataset](#for-the-plankton-18s-time-series)
+   - [Aquarium COI/12S/16S datasets](#for-the-aquarium-coi12s16s-datasets)
  - [What can explain the sequence length variation?](#some-variation-in-sequence-length-was-noticed-especially-for-the-aquarium-datasets-12scoi16s)
  - [Were samples collected in the same location?](#were-samples-collected-in-the-same-location)
  - [Aquarium COI/12S/16S datasets - Resident species](#aquarium-coi12s16s-datasets---resident-species)
@@ -17,21 +19,27 @@ The slides presented during the information session on 09/09/2024 can be found [
  - [Aquarium COI/12S/16S datasets - Reference libraries lineages](#is-it-possible-to-add-the-lineage-to-the-species-names-of-the-reference-libraries)
 
 ### What preprocessing has been done to the data?
-**For the plankton 18S time-series:** Sequenced 2x250 bp. Demultiplexing has been done and the illumina barcodes have been removed [+/- 12 bp].
+#### For the plankton 18S time-series
+
+Sequenced 2x250 bp. Demultiplexing has been done and the illumina barcodes have been removed [+/- 12 bp].
 Primers are still attached, no trimming or other processing has been done. The amplicon reads should all have the same length, around 250bp. Maybe a few base pairs variation because of the illumina tag removal.
 
 
 Details about the demultiplexing of the 18S plankton data can be found at [https://gitlab.sb-roscoff.fr/somlit-astan-metab/demultiplexing/18s-v4-ena-submission](https://gitlab.sb-roscoff.fr/somlit-astan-metab/demultiplexing/18s-v4-ena-submission) 
 
-**Importantly** the runs of the 18S dataset are mixed-orientated. This means that the R1 file will have a mix of forward and reverse reads, and the R2 file will also have a mix of forward and reverse reads. This is due to the way the library was prepared. The Illumina tag was attached to the forward primer. Half of the reads are thus in reverse orientation and do not have a tag. 
+$Importantly_$ the runs of the 18S dataset are mixed-orientated. This means that the R1 file will have a mix of forward and reverse reads, and the R2 file will also have a mix of forward and reverse reads. This is due to the way the library was prepared. 
 
 The [pipeline used in the original study](https://doi.org/10.5281/zenodo.5791089) details the demultiplexing and trimming steps: 
 
-> Demultiplexing and primer trimming has been done using Cutadapt. For most of the fastq files processed here, the reads are in mixed orientation. So Cutadapt is used twice, first looking for tags and forward primers in R1 and then looking for tags and forward primers in R2.
+> Demultiplexing has been done using Cutadapt. For most of the fastq files processed here, the reads are in mixed orientation. So Cutadapt is used twice, first looking for tags and forward primers in R1 and then looking for tags and forward primers in R2.
+> 
+> The results of demultiplexing alone are saved into \${SAMPLE}_\${RUNID}_R1.fastq.gz and \${SAMPLE}\_${RUNID}_R2.fastq.gz. The reads are not reorientated. These files are deposited in public repositories.
+
+==This means it's up to you to separate the forward and reverse reads before you proceed with your analyses. You can do this by placing the forward reads from R1 and R2 into a  separate FWD folder, and the reverse reads from R1 and R2 into a separate REV folders. You can find the details on how this was done in the original [Caracciolo et al. 2022](https://doi.org/10.1111/mec.16539) paper in the [index.html](https://doi.org/10.5281/zenodo.5791089) file of their pipeline==. 
 
 
 
-**For the Aquarium COI/12S/16S datasets:**
+#### For the Aquarium COI/12S/16S datasets
 The datasets provided contain the raw, demultiplexed sequences but no filtering was applied. 
 
 ### Some variation in sequence length was noticed, especially for the aquarium datasets (12S/COI/16S). 
@@ -70,8 +78,8 @@ Yes they only contain fish species.
 
 We ask you to use these standardised reference libraries for your species assignment.
 
-However, several of you have noted that they would include outgroups that would allow to separate un-assigned fish sequences from non-fish sequences (e.g. crustacea or bacteria which they are known to co-amplify with the primer sets). We encourage you to do the taxonomic assignation to broader reference libraries the way you would normally do it, in addition to the assignation to the standardised reference libraries. You can then send us an additional taxonomic table with all the necessary documentation to know what steps were taken.
+However, several of you have noted that they would include outgroups that would allow to separate un-assigned fish sequences from non-fish sequences (e.g. crustacea or bacteria which are known to co-amplify with the primer sets). We encourage you to do the taxonomic assignation to broader reference libraries the way you would normally do it, in addition to the assignation to the standardised reference libraries. You can then send us an additional taxonomic table with all the necessary documentation to know what steps were taken.
 
 ### Is it possible to add the lineage to the species names of the reference libraries?
 
-Yes, this was done and the new reference libraries were added on 13/09/2024 to each of the data folders you were sent to download the raw read data and the reference libraries.
+Yes, this was done and the new reference libraries were added on 13/09/2024 to each of the data folders containing the raw read data and the reference libraries.
