@@ -12,8 +12,9 @@ The slides presented during the information session on 09/09/2024 can be found [
  - [Were samples collected in the same location?](#were-samples-collected-in-the-same-location)
  - [Aquarium COI/12S/16S datasets - Resident species](#aquarium-coi12s16s-datasets---resident-species)
  - [Aquarium COI/12S/16S datasets - Potential contaminants](#aquarium-coi12s16s-datasets---potential-contaminants)
- - [Aquarium COI/12S/16S datasets - two 12S primers](#aquarium-coi12s16s-datasets---why-were-two-primers-used-for-12s)
+ - [Aquarium COI/12S/16S datasets - Two 12S primers](#aquarium-coi12s16s-datasets---why-were-two-primers-used-for-12s)
  - [Aquarium COI/12S/16S datasets - Reference libraries target taxa](#do-the-reference-database-for-the-aquarium-datasets-contain-only-the-target-species-only-fish-species-or-also-outgroups-eg-crustaceans)
+ - [Aquarium COI/12S/16S datasets - Reference libraries lineages](#is-it-possible-to-add-the-lineage-to-the-species-names-of-the-reference-libraries)
 
 ### What preprocessing has been done to the data?
 **For the plankton 18S time-series:** Sequenced 2x250 bp. Demultiplexing has been done and the illumina barcodes have been removed [+/- 12 bp].
@@ -71,3 +72,6 @@ We ask you to use these standardised reference libraries for your species assign
 
 However, several of you have noted that they would include outgroups that would allow to separate un-assigned fish sequences from non-fish sequences (e.g. crustacea or bacteria which they are known to co-amplify with the primer sets). We encourage you to do the taxonomic assignation to broader reference libraries the way you would normally do it, in addition to the assignation to the standardised reference libraries. You can then send us an additional taxonomic table with all the necessary documentation to know what steps were taken.
 
+### Is it possible to add the lineage to the species names of the reference libraries?
+
+Yes, this was done and the new reference libraries were added on 13/09/2024 to each of the data folders you were sent to download the raw read data and the reference libraries.
