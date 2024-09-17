@@ -27,7 +27,7 @@ Primers are still attached, no trimming or other processing has been done. The a
 
 Details about the demultiplexing of the 18S plankton data can be found at [https://gitlab.sb-roscoff.fr/somlit-astan-metab/demultiplexing/18s-v4-ena-submission](https://gitlab.sb-roscoff.fr/somlit-astan-metab/demultiplexing/18s-v4-ena-submission) 
 
-$Importantly_$ the runs of the 18S dataset are mixed-orientated. This means that the R1 file will have a mix of forward and reverse reads, and the R2 file will also have a mix of forward and reverse reads. This is due to the way the library was prepared. 
+`Importantly` the runs of the 18S dataset are mixed-orientated. This means that the R1 file will have a mix of forward and reverse reads, and the R2 file will also have a mix of forward and reverse reads. This is due to the way the library was prepared. 
 
 The [pipeline used in the original study](https://doi.org/10.5281/zenodo.5791089) details the demultiplexing and trimming steps: 
 
@@ -35,7 +35,7 @@ The [pipeline used in the original study](https://doi.org/10.5281/zenodo.5791089
 > 
 > The results of demultiplexing alone are saved into \${SAMPLE}_\${RUNID}_R1.fastq.gz and \${SAMPLE}\_${RUNID}_R2.fastq.gz. The reads are not reorientated. These files are deposited in public repositories.
 
-==This means it's up to you to separate the forward and reverse reads before you proceed with your analyses. You can do this by placing the forward reads from R1 and R2 into a  separate FWD folder, and the reverse reads from R1 and R2 into a separate REV folders. You can find the details on how this was done in the original [Caracciolo et al. 2022](https://doi.org/10.1111/mec.16539) paper in the [index.html](https://doi.org/10.5281/zenodo.5791089) file of their pipeline==. 
+This means it's up to you to separate the forward and reverse reads before you proceed with your analyses. You can do this by placing the forward reads from R1 and R2 into a  separate FWD folder, and the reverse reads from R1 and R2 into a separate REV folders. You can find the details on how this was done in the original [Caracciolo et al. 2022](https://doi.org/10.1111/mec.16539) paper in the [index.html](https://doi.org/10.5281/zenodo.5791089) file of their pipeline. 
 
 
 
