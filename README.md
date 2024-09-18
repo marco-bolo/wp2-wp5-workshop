@@ -16,6 +16,10 @@ Join the [EU Horizon MARCO-BOLO project](https://marcobolo-project.eu/) in compa
 
 In doing so, you will help improve recommendations for eDNA metabarcoding pipeline choice amongst the myriad of options out there and contribute towards the development of indicator workflows to report on biodiversity monitoring.
 
+> Please read the [Instructions.md](https://github.com/marco-bolo/wp2-wp5-workshop/blob/main/Instructions.md) for additional specifications regarding the 18S dataset, output tables and reference datasets.
+> 
+> Please head to the [Information_QA.md](https://github.com/marco-bolo/wp2-wp5-workshop/blob/main/Information_QA.md) for information that came up during the information sessions on the 9th and 16th of September.
+
 > Find a more detailed description of [the challenge](#the-challenge) and [the datasets](#the-datasets) below.
 
 
