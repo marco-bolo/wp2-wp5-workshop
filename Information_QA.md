@@ -57,6 +57,23 @@ Below, the size distribution of the 18SV4 reads, one line per file:
 This could be due to non-target amplification by the chosen primers and thus represent biological variation in the amplicons.
 Bacterial co-amplification occurs with the 12S primer set and is documented for the [COI primers](https://www.biorxiv.org/content/10.1101/2021.07.10.451903v1.full.pdf)
 
+Below, the size distribution of the 16S, 12S and COI reads:
+
+
+| 16S data |        |  ~  | 12S data |       | ~| COI data | | |
+| -------- | ------ | ---|-------- | ------ |---| -------- |---|---|
+| **Counts**   | **Length** |  ~   | **Counts** | **Length**   | ~ | **Counts** | **Length** |
+| 39618    | 301    |          | 41094  | 301      |  | 62314 | 301 |
+| 20800    | 300    |          | 5927   | 300      |  | 9577 | 300 |
+| 14302    | 35     |          | 5674   | 299      |  | 9489 | 298 |
+| 686      | 251    |          | 1199   | 217      |  | 3886 | 216 |
+| 551      | 261    |          | 975    | 228      |  | 782 | 299 |
+| 459      | 259    |          | 881    | 180      |  | 591 | 215 |
+| 381      | 299    |          | 614    | 35       |  | 570 | 264 |
+| 368      | 245    |          | 584    | 230      |  | 514 | 252 |
+| 151      | 220    |          | 488    | 229      |  | 274 | 281 |
+| 147      | 262    |          | 471    | 142      |  | 259 | 192 |
+
 
 ### Were samples collected in the same location?
 
