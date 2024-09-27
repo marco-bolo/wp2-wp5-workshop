@@ -1,8 +1,8 @@
 ![status](https://img.shields.io/badge/Expression_of_Interest-13_September-green)
-![registrations](https://img.shields.io/badge/Registrations-60-purple)
+![registrations](https://img.shields.io/badge/Registrations-61-purple)
 
 ![status2](https://img.shields.io/badge/Challenge_Run-30_September-green)
-![submissions](https://img.shields.io/badge/Submissions-2-blue)
+![submissions](https://img.shields.io/badge/Submissions-10-blue)
 <br/>
 <br/>
 <p align="center">
@@ -15,8 +15,11 @@
 Join the [EU Horizon MARCO-BOLO project](https://marcobolo-project.eu/) in comparing bioinformatics pipelines for analysing eDNA data by participating in the **DATA ANALYSIS CHALLENGE**.
 
 In doing so, you will help improve recommendations for eDNA metabarcoding pipeline choice amongst the myriad of options out there and contribute towards the development of indicator workflows to report on biodiversity monitoring.
+<br/>
+<br/>
+> :exclamation: The COI reference database had to be corrected as fish species were missing. The [corrected COI database](https://drive.google.com/file/d/1lTj0AHcdI_ukImCUJ_Wl1oXpWaLT_C3z/view?usp=sharing) consisting of fish + other metazoans + lineage info was uploaded on the drive folder on 25/09/2024. Please use this reference database for your COI species assignments.
 
-> Please read the [Instructions.md](https://github.com/marco-bolo/wp2-wp5-workshop/blob/main/Instructions.md) for additional specifications regarding the 18S dataset, output tables and reference datasets.
+>Please read the [Instructions.md](https://github.com/marco-bolo/wp2-wp5-workshop/blob/main/Instructions.md) for additional specifications regarding the 18S dataset, output tables and reference datasets.
 > 
 > Please head to the [Information_QA.md](https://github.com/marco-bolo/wp2-wp5-workshop/blob/main/Information_QA.md) for information that came up during the information sessions on the 9th and 16th of September.
 
