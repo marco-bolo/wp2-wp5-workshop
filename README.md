@@ -1,8 +1,8 @@
-![status](https://img.shields.io/badge/Expression_of_Interest-13_September-green)
-![registrations](https://img.shields.io/badge/Registrations-61-purple)
+![status](https://img.shields.io/badge/Expression_of_Interest-13_September-lightgrey)
+![registrations](https://img.shields.io/badge/Registrations-62-purple)
 
 ![status2](https://img.shields.io/badge/Challenge_Run-30_September-green)
-![submissions](https://img.shields.io/badge/Submissions-10-blue)
+![submissions](https://img.shields.io/badge/Submissions-29-blue)
 <br/>
 <br/>
 <p align="center">
